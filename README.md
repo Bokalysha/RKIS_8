@@ -18,9 +18,6 @@ _Вариант №2: Смартфон._
 **Сборка проекта:**
 1. Распаковать проект
 2. Открыть директорию с проектом в терминале и проверить наличие [Maven](https://maven.apache.org/download.cgi) и [ActiveMQ](https://activemq.apache.org/activemq-6000001-release)
-```
-mvn -version
-```
 3. Создать базу данных
 ```
 psql -U postgres -h localhost -f create_db.sql
